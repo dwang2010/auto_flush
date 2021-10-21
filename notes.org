@@ -1,0 +1,8 @@
+setup raspberry pi wifi settings
+- first connect wired link
+- ssh into associated local ip: ssh pi@192...
+- configure settings via: sudo raspi-config
+- remove wired link
+- thereafter ssh into wireless ip: ssh pi@192...
+
+official pinout docs are located: [[https://www.raspberrypi.com/documentation/computers/os.html#gpio-and-the-40-pin-header][here]]
